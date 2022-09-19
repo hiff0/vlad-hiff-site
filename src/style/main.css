@@ -1,1 +1,27 @@
-@import "~bootstrap/scss/bootstrap";
+:root {
+    --color_red: #3e3bf7;
+    --color_white: #f5f5f5;
+    --color-dark: #080808;
+}
+
+body {
+    background-color: var(--color_white);
+}
+
+.navbar {
+    background-color: var(--color_red);
+}
+
+.padding-bottom {
+    padding-bottom: 10px;
+}
+
+.nav-text {
+    color: var(--color_white);
+}
+
+.about {
+    background-color: var(--color_white);
+    border-radius: 10px;
+    color: var(--color-dark);
+}
