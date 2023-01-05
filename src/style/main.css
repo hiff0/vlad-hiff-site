@@ -1,27 +1,24 @@
 :root {
-    --color_red: #3e3bf7;
-    --color_white: #f5f5f5;
-    --color-dark: #080808;
+    --start-color: #0a0a0a;
+    --end-color: #333;
+    --white-color: #f2f2f2;
+    --grey-color: #757575;
 }
 
-body {
-    background-color: var(--color_white);
+.header {
+    width: 100%;
+    background: linear-gradient(to right, var(--start-color), var(--end-color));
+    height: 500px;
 }
 
 .navbar {
-    background-color: var(--color_red);
+    background: none;
 }
 
-.padding-bottom {
-    padding-bottom: 10px;
+.color-white {
+    color: var(--white-color);
 }
 
-.nav-text {
-    color: var(--color_white);
-}
-
-.about {
-    background-color: var(--color_white);
-    border-radius: 10px;
-    color: var(--color-dark);
+.color-grey {
+    color: var(--grey-color);
 }
