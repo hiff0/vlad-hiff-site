@@ -15,10 +15,16 @@
     background: none;
 }
 
+
 .color-white {
     color: var(--white-color);
 }
 
 .color-grey {
     color: var(--grey-color);
+}
+
+.github-img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
 }
