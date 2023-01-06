@@ -3,18 +3,26 @@
     --end-color: #333;
     --white-color: #f2f2f2;
     --grey-color: #757575;
+    --green-color: #2ff011;
+    --light-grey-color: #a1a1a1;
 }
 
-.header {
-    width: 100%;
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
     background: linear-gradient(to right, var(--start-color), var(--end-color));
-    height: 500px;
+    color: var(--white-color);
 }
 
 .navbar {
     background: none;
 }
 
+.collapse>.navbar-nav {
+    width: 100%;
+}
 
 .color-white {
     color: var(--white-color);
@@ -24,7 +32,167 @@
     color: var(--grey-color);
 }
 
-.github-img {
+.color-green {
+    color: var(--green-color);
+}
+
+.reverse-color {
     -webkit-filter: invert(1);
     filter: invert(1);
+}
+
+.circle {
+    background-color: var(--end-color);
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px var(--start-color);
+}
+
+.photo {
+    width: 350px;
+    top: 5%;
+    left: 12%;
+}
+
+.react {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--end-color);
+    box-shadow: 0 0 5px var(--start-color);
+    top: 65%;
+}
+
+.react>img {
+    width: 110px;
+}
+
+.typescript {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--end-color);
+    box-shadow: 0 0 5px var(--start-color);
+    top: 75%;
+    right: 5%;
+}
+
+.typescript>img {
+    width: 70px;
+}
+
+.nodejs {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--end-color);
+    box-shadow: 0 0 5px var(--start-color);
+    top: 5%;
+    right: 0;
+}
+
+.nodejs>img {
+    width: 70px;
+}
+
+.litle-circle-1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--light-grey-color);
+    top: 8%;
+}
+
+.litle-circle-2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--grey-color);
+    right: 0;
+    top: -5%;
+}
+
+.litle-circle-3 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--white-color);
+    right: -5%;
+    top: 70%;
+}
+
+.spez {
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: var(--grey-color);
+    box-shadow: 0 0 5px var(--start-color);
+    font-weight: bold;
+}
+
+.main {
+    background-color: var(--start-color);
+}
+
+@media (width < 992px) {
+    .circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .photo {
+        width: 233px;
+    }
+
+    .react {
+        width: 90px;
+        height: 90px;
+        top: 65%;
+    }
+
+    .react>img {
+        width: 70px;
+    }
+
+    .typescript {
+        width: 80px;
+        height: 80px;
+        top: 75%;
+        right: 5%;
+    }
+
+    .typescript>img {
+        width: 50px;
+    }
+
+    .nodejs {
+        width: 80px;
+        height: 80px;
+        top: 5%;
+        right: 0;
+    }
+
+    .nodejs>img {
+        width: 60px;
+    }
+
+    .litle-circle-1 {
+        width: 13px;
+        height: 13px;
+    }
+
+    .litle-circle-2 {
+        width: 20px;
+        height: 20px;
+    }
+
+    .litle-circle-3 {
+        width: 10px;
+        height: 10px;
+    }
+
+    .spez {
+        width: 250px;
+    }
 }
