@@ -131,7 +131,8 @@ body {
     font-weight: bold;
 }
 
-.main {
+.skills {
+    width: 100%;
     background-color: var(--start-color);
 }
 
