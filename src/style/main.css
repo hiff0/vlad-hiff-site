@@ -136,6 +136,11 @@ body {
     background-color: var(--start-color);
 }
 
+.freelancer>a {
+    text-decoration: none;
+}
+
+
 @media (width < 992px) {
     .circle {
         width: 300px;
